@@ -1,6 +1,6 @@
 'use server'
 
-export async function sendLike(previousState, formData: FormData) {
+export async function sendLike(previousState: object, formData: FormData) {
     'use server'
 
     const rawFormData = {
